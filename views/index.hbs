@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/css/index.css">
+        <link rel="icon" type="image/png" href="/img/weather.png">
+        <title>Weather Forecast</title>
+    </head>
+    <body>
+        <div>
+        {{>header}}
+        <form>
+            <input type="text" placeholder="Enter location">
+            <input type="submit" value="Get Weather">
+        </form>
+        <p id="place"></p>
+        <p id="forecast"></p>
+        <p id="precip"></p>
+        <p id="error"></p>
+        </div>
+        {{>footer}}
+        <script src="/js/fetch-check.js"></script>
+    </body>
+</html>

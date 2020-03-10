@@ -1,0 +1,19 @@
+body{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    margin:0 0 0 40%;
+    min-height: 90vh;
+}
+div{
+    flex-grow:1;
+}
+#error{
+    color:tomato;
+}
+p{
+    color:darkkhaki;
+}
+#foot{
+    color:black;
+}
